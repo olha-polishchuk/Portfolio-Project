@@ -1,9 +1,23 @@
+:root {
+     --secondary-color: #FFFFFF;
+    }
 
-h1 {
-    color:black; 
+body {
+    background-color: #E5E5E5;
     font-family: 'Nunito', sans-serif;
+    color:#272142;
 }
-p {
-    color:black; 
-    font-family: 'Nunito', sans-serif; 
+
+.heading {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.heading h1 {
+    font-size: 62px;
+    margin-top: 30px;
+}
+.heading p {
+    font-size: 20px;
+    color: var(--secondary-color);
 }
