@@ -35,19 +35,10 @@ h2 {
     font-size:28px;
 }
 
-.btn-branding-outline {
-    display: block;
-    font-weight:400;
-    border: 1px solid #272142;
-    border-radius: 4px;
-    padding: 10px 15px;
-    width: 15%;
-}
-
 .container {
     margin-top: 135px;
+    margin-bottom: 135px;
 }
-.container img {
-    display: block;
-    width: 50%;
-}
+.col-md-6 {
+    margin-bottom: 46px;
+  }
