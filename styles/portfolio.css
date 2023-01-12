@@ -28,6 +28,7 @@ body {
     margin: 0% 0% 2% 0%;
     margin-top: 135px;
     width:100%;
+    height: auto;
 }
 
 h2 {
@@ -42,3 +43,28 @@ h2 {
 .col-md-6 {
     margin-bottom: 46px;
   }
+
+  /* .footer p {
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: var(--secondary-color);
+margin-top: -50px;
+text-align: right;
+  } */
+
+  .footer {
+    position: relative;
+
+}
+.logo {
+  position: absolute;
+  bottom: -615px;
+  left: 160px;
+}
+
+.copyright {
+    color: var(--secondary-color);
+    margin-top: -35px;
+text-align: right;
+}
